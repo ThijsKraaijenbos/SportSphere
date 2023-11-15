@@ -1,0 +1,81 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    overflow-y: visible !important;
+}
+
+.hero-head {
+    background-color: transparent !important;
+    background: 0 0 !important;
+    position: absolute;
+    align-self: center;
+    padding-top: 1.5vw;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 80vw;
+    min-height: 5rem !important;
+}
+
+.hero-body {
+    background-image: url(../images/section_main_bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 4rem;
+    letter-spacing: -3px;
+    padding-left: 7vw;
+    padding-top: 1vw;
+
+}
+
+.subtitle {
+    font-size: 2.2rem;
+    padding-left: 7vw;
+    max-width: 50vw;
+}
+
+.hero {
+    min-width: 100%;
+}
+
+.navbar-item {
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s !important;
+    font-size: 1.4rem;
+    text-wrap: nowrap;
+}
+
+.navbar-image {
+    padding: 0;
+    width: 100px !important;
+}
+
+.navbar-item:hover {
+    background-color: transparent !important;
+    color: rgb(255, 80, 57) !important;
+    transition: 0.4s !important;
+}
+
+.is-active {
+    background-color: transparent !important;
+    color: rgb(255, 80, 57) !important;
+    transition: 0.4s !important;
+}
+
+.container {
+    margin: 0 !important;
+}
